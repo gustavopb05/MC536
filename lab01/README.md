@@ -2,3 +2,4 @@
 [Tarefa1](https://github.com/gustavopb05/MC536/blob/master/lab01/notebook/data-api-python.ipynb)
 
 # Tarefa 2 sobre Engenharia Reversa
+![Tarefa2](https://github.com/gustavopb05/MC536/blob/master/lab01/images/Tarefa2sobreEngenhariaReversa.png)
