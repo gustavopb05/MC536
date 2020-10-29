@@ -1,3 +1,3 @@
 ## Tarefa de sentenças SQL para dados do Nutrition Examination Survey 
 
-> Coloque um link para o arquivo do notebook com a resolução da tarefa. Ele estará dentro da pasta `notebook`.
+[Arquivo notebook](https://github.com/gustavopb05/MC536/blob/master/lab04/notebook/nhanes-lab-02.ipynb)
