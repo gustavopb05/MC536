@@ -26,7 +26,8 @@ Use o `DELETE` para excluir o relacionamento que você criou (apenas ele).
 
 ### Resolução
 ~~~cypher
-(escreva aqui a resolução em Cypher)
+MATCH (:Medicine {name:"Dipyrone"})-[d:SameAs]->(:Medicine {name:"Metamizole"})
+DELETE d
 ~~~
 
 ## Exercício 4
