@@ -48,7 +48,7 @@ Construa um grafo ligando os medicamentos aos efeitos colaterais (com pesos asso
 
 ### Resolução
 ~~~cypher
-(escreva aqui a resolução em Cypher)
+Não finalizada no prazo
 ~~~
 
 ## Exercício 6
@@ -59,5 +59,5 @@ Proponha um tipo de análise e escreva uma sentença em Cypher que realize a an�
 
 ### Resolução
 ~~~cypher
-(escreva aqui a resolução em Cypher)
+Não finalizada no prazo
 ~~~
