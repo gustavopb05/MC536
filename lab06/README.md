@@ -36,7 +36,11 @@ Faça a projeção em relação a Patologia, ou seja, conecte patologias que sã
 
 ### Resolução
 ~~~cypher
-(escreva aqui a resolução em Cypher)
+MATCH (p1:Pathology)<-[a]-(d:Drug)-[b]->(p2:Pathology)
+WHERE a.code = b.code AND a.code < a.code
+MERGE (p1)<-[s:SameDrug]->(p2)
+ON CREATE SET s.weight=1
+ON MATCH SET s.weight=p.weight+1
 ~~~
 
 ## Exercício 5
