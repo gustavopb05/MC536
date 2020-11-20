@@ -36,10 +36,7 @@ Faça a projeção em relação a Patologia, ou seja, conecte patologias que sã
 
 ### Resolução
 ~~~cypher
-LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/santanche/lab2learn/master/data/faers-2017-dron/drughierarchy.csv' AS line
-MATCH (d1:Drug {code: line.codedrug})
-MATCH (d2:Drug {code: line.parent})
-CREATE (d1)-[:Parent]->(d2)
+(escreva aqui a resolução em Cypher)
 ~~~
 
 ## Exercício 5
